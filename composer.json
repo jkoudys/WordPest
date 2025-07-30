@@ -1,0 +1,23 @@
+{
+    "name": "qaribou/wordpest-root",
+    "description": "Root build for wordpest. Dev environment.",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Joshua Koudys",
+            "email": "jkoudys@gmail.com"
+        }
+    ],
+    "require": {
+        "johnpbloch/wordpress": "^6.8"
+    },
+    "extra": {
+        "wordpress-install-dir": "wp"
+    },
+    "config": {
+        "allow-plugins": {
+            "johnpbloch/wordpress-core-installer": true
+        }
+    }
+}
